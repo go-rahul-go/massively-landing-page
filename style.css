@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container{
+    display:flex;
+    flex-flow:column;
+    width:100%;
+    height:100%;
+    background-image: url("./assest/bg.jpg");
+}
+.container-2{
+    width:100%;
+    height:70vh;
+    color:white;
+    background-color: rgba(61, 61, 61, 0.605);
+    display: flex;
+    flex-flow:column;
+    justify-content:center;
+    align-items: flex-start;
+    gap:10%;
+    padding-left:2%;
+}
+.message > h1{
+    color:white;
+    margin-bottom:10%;
+}
+.message > p{
+    color:rgb(195, 195, 195);
+}
+form > input{
+    height:1.6rem;
+    background-color: transparent;
+    border:1px solid white;
+    width:200px;
+    padding-left:1.5%;
+}
+
+input::placeholder{
+    color:rgb(216, 216, 216);
+    
+}
+#btn{
+    background-color: rgb(0, 204, 136);
+    color:white;
+    width:5rem;
+    padding:2%;
+    border:1px solid white;
+    border-radius: 5px;
+    font-weight: 800;
+}
+footer{
+    width:100%;
+    height:30vh;
+    display: flex;
+    flex-flow:column;
+    justify-content: flex-end;
+    
+    gap:10px;
+    background-color: rgba(61, 61, 61, 0.605);
+}
+.social-media{
+    width:100%;
+    color:rgba(255, 255, 255, 0.57);
+    font-size:2em;
+    padding-left:2%;
+    
+   
+}
+.social-media > i{
+    padding:5px;
+    
+}
+.fa{
+    transition: all 300ms;
+    transition-timing-function: linear;
+}
+.fa:hover{
+    font-size:1.2em;
+}
+.fa-facebook:hover{
+    cursor: pointer;
+    
+    color: rgb(61, 118, 253);
+}
+.fa-twitter:hover{
+    cursor: pointer;
+    color: rgb(61, 202, 253);
+}
+.fa-instagram:hover{
+    cursor: pointer;
+    color:rgb(254, 3, 170);
+}
+.fa-github:hover{
+    cursor: pointer;
+    color:rgb(255, 255, 255);
+}
+.footer-message{
+    width:100%;
+    padding-left:2%;
+    font-size: 1em;
+    color:rgb(213, 213, 213);
+}
+
+@media only screen and (min-width:400px)
+{
+    .social-media{
+        width:100%;
+    }
+}
